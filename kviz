@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int jednotka;
+	cout << "Kolko ma auto kolies ? 1)tri 2)dve 3)sest 4)styri" << endl;
+	cin >> jednotka;
+	if (jednotka == 4) {
+		cout << "spravna odpoved" << endl;
+
+
+		int dvojka;
+		cout << "Obloha je ? 5)modra 6)trava 7)hlina 8)kamen" << endl;
+		cin >> dvojka;
+		if (dvojka == 5) {
+			cout << "spravna odpoved" << endl;
+
+
+			int trojka;
+			cout << "Jablko je ? 9)ruzove 10)oranzove 11)cierne 12)cervene " << endl;
+			cin >> trojka;
+			if (trojka == 12) {
+				cout << "spravna odpoved" << endl;
+			}
+			else {
+				cout << "pokazil si to na konci, zacni znova" << endl;
+			}
+		}
+		else {
+			cout << "zla odpoved, chod od zaciatku" << endl;
+		}
+	}
+	else {
+		cout << "zacni znova" << endl;
+	}
+
+
+
+
+}
